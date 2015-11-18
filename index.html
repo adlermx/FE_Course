@@ -1,47 +1,42 @@
 <!DOCTYPE html>
 <html>
-<body style = "background-color: #f2f2f2">
-	<div style = "border: 1px solid #ccc;
-    border-radius: 5px;
-    color: #202020;
-    margin: 20px 0px;
-    position: absolute;
-    left: 25%;
-    right: 25%;
-    padding: 0px 20px 0px 20px;
-    background-color: white
-    
-  ">
-<div style ="
-background: #466368;
-    background: linear-gradient(#f2f2f2, #ffffff);">
-<header style = "
-  font-family: Helvetica, Segoe UI, Arial, sans-serif;
-    font-size:12px;">
-
-    <div style = "float:right;"><p >Another Wordpress blog</p></div>
-	<div><h1 style="color: SteelBlue ">My Blog</h1> </div>
+<body>
+<div class="wrapper">
+<!--<div>-->
+<!--лишний элемент-->
+<header>
+	<!--Используйте наиболее семантичную струкутру-->
+	<h1>My blog</h1>	
+	<h2>Another...</h2>
+ <!--   <div style = "float:right;"><p >Another Wordpress blog</p></div>-->
+	<!--<div><h1 style="color: SteelBlue ">My Blog</h1> </div>-->
 </header>
-</div>
-    <section 
-     style = " font-family: Helvetica, Segoe UI, Arial, sans-serif;
-    font-size:12px;">
-    <hr style = "height: 1px; background-color: silver; border:none">
+<!--</div>-->
+    <section>
+    <!--<hr style = "height: 1px; background-color: silver; border:none">-->
+    <!--используйте css: border top/bottom вместо hr-->
     <p>Hey!</p>
     <p>This is a simple mail to test your template </p>
     <p>If you're not skilled in HTML/CSS email coding, I strongly recommend to leave the default template as it is.
     It has been tested  on various and popular email clients like Gmail, Yahoo Mail, Hotmail/Live, Apple Mail, Outlook and many more.</p>
     <p>If you have any problem or any suggestion to improve  this plugin, please let me know.</p>
-    <hr style = "height: 1px; background-color: silver; border:none">
-    <div 
-     style = " font-family: Helvetica, Segoe UI, Arial, sans-serif;
-    font-size:10px;">
-    <img src="images/wordpress-logo.png" style="float:right; width="45" height="45"">
-<p><img src="images/calendario.jpg" style="vertical-align:middle;" width="18" height="18" > Email sent the 28 november 2015 @ 17h 55 min</p>
-<p><img src="images/chat.jpg" style="vertical-align:middle;"  width="18" height="18"> For any request , please contact <a href="mailto:plugins@arty-show.fr">plugins@arty-show.fr</a></p>
+    <!--<hr style = "height: 1px; background-color: silver; border:none">-->
+    <!--<div -->
+    <!-- style = " font-family: Helvetica, Segoe UI, Arial, sans-serif;-->
+    <!--font-size:10px;">-->
+    
+    </section>
+	<footer>
+	<!--используйте семантичные теги-->
+    <img src="images/wordpress-logo.png" width="45" height="45">
+<p><img src="images/calendario.jpg" width="18" height="18" > Email sent the <time>28 november 2015 @ 17h 55 min</time></p>
+<p><img src="images/chat.jpg" width="18" height="18"> For any request , please contact <a href="mailto:plugins@arty-show.fr">plugins@arty-show.fr</a></p>
 
+</footer>    
     </div>
-</section>
+    <!--не забывайте закрывать элементы -->
+</body>
+</html>
 
 
 <footer>
