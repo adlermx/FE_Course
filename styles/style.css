@@ -1,0 +1,55 @@
+
+.wrapper{
+    font-family:Helvetica, Segoe UI, Arial, sans-serif;
+    color: dimgray;
+    background: url('../images/sprite0.png') -0px -40px repeat-x ;
+    border:1px solid lightgray;
+    margin: 0 10% 0 10%;
+    padding: 0 2% 2% 2%;
+}
+header h1{
+    color: SteelBlue;
+    vertical-align: middle;
+}
+
+header h2{
+    float: right;
+    font-size: medium;
+}
+
+section{
+font-size: 12px;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+
+
+.footertext{
+    font-size: 10px;
+    font-weight: inherit;
+    line-height: 1;
+    vertical-align: text-top;
+    padding-top: 10px;
+}
+
+#wordpress{
+    width: 35px;
+    height: 35px;
+    background: url("../images/sprite0.png") 0px 0px;
+    float: right;
+}
+
+#calendar{
+    width: 15px;
+    height: 15px;
+    background: url("../images/sprite0.png") 36px 0px;
+    display: inline-block;
+}
+
+
+#chat{
+    width: 15px;
+    height: 15px;
+    background: url("../images/sprite0.png") 16px 0px;
+    display: inline-block;
+}
